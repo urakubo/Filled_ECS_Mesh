@@ -24,5 +24,7 @@ and plot them.
 
 4) ParamClass:
  Parameters.
- 
+
+5) main_volumes.m
+Obtain volumes of the annotated objects as the numbers of voxels.
  
