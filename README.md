@@ -1,8 +1,8 @@
 # Filled_ECS_Mesh
 
-1) main_MeshingObjects.m
- This program loads 3D annotated data as stacked tiff images (16bit grayscale), and 
- resamples it as a spatially isotropic matlab 3D matrix.
+1) main_MeshObjects.m
+ This program loads 3D annotated data as stacked tiff images (16bit grayscale; 0 deonotes ECS),
+ and resamples it as a spatially isotropic matlab 3D matrix.
  The annotated target objects are smoothed by spatial filters. then,
  the surface meshes of those objects are obtained by iso2mesh "v2s" function, and 
  their vertcies are furhter smoothed.
